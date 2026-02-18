@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+kubernetes:
+  # If running outside cluster, ensure KUBECONFIG env var points to kubeconfig or
+  # provide path here. If running in-cluster, the client will auto-config.
+  kubeconfig: ${KUBECONFIG:}
